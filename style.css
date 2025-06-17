@@ -4,6 +4,14 @@ body, html {
     overflow: hidden;
 
     margin: 0;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
 }
 
 .bg{
@@ -27,25 +35,45 @@ body, html {
 .title{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-style: italic;
-    font-size: 500%;
+    font-size: 400%;
+    color: white;
     text-align: center;
 }
 
-/* div {
+.characters{
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-direction: row;
+    gap: 60%;
 
-} */
-
-/* .purplebackground {
-    background-color: purple;
+    justify-content: center;
+    position:absolute;
+    top: 35vh;
 }
 
-.sapphicasslumity{
-    width: 700px;
-    height: 400px;
-} */
+.luz{
+    width: 18%;
+    height: 65%;
+    
+    transform: translateY(0vh);
+}
 
-/* .flexy {
-    display: flex;
-    flex-direction: row;
-    gap: 50px
-} */
+.amity{
+    width: 15%;
+    height: 70%;
+}
+
+.list{
+    /* display: block; */
+    /* flex: none; */
+    /* align-self: auto; */
+    margin-top: 5%;
+    margin-left: 50%;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-position: bottom;
+    color:black;
+}
